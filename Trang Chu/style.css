@@ -3,14 +3,32 @@
 	width: 900px;
 	margin:auto;
 	height: 100px;	
-	background-color: blue;
+	background-image: url("banner.png");
 }
 #Menu{
-
 	width:900px;
 	margin:auto;
 	height:50px;
-	background-color:red;
+	background-color:black;
+	margin-top:10px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height:50px;
+	font-size:20;
+}
+#Menu ul {
+	list-style-type: none;
+	padding : 0px;
+}
+#Menu ul li {
+	width:160px;
+	float : left;
+	border-left:1px solid #ffffff;
+		
+}
+#Menu ul li a {
+	text-decoration: none;
+	color: white;
 }
 #wrapper{
 	width:900px;
@@ -18,14 +36,31 @@
 	margin:auto;
 }
 #LeftMenu{
-	background-color:green;
 	width:200px;
-	height:500px;
+	height: 500;
+	background: black;
 	float:left;
+	text-align:left;
+	padding-top:20px;
+}
+#LeftMenu ul{
+	list-style-type: none;
+	padding: 0px;
+}
+#LeftMenu ul li{
+	width: auto;
+	height: 50px;
+	line-height:50px;
+	border-bottom: 1px solid #ffffff;
+	padding: 0 1em;
+}
+#LeftMenu ul li a{
+	text-decoration: none;
+	color: white;
 }
 
 #ConTent{
-	background-color:black;
+	background-color:yellow;
 	width:500px;
 	height:500px;
 	float:left;
