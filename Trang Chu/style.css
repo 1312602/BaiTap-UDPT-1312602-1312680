@@ -1,0 +1,44 @@
+#Top{
+	
+	width: 900px;
+	margin:auto;
+	height: 100px;	
+	background-color: blue;
+}
+#Menu{
+
+	width:900px;
+	margin:auto;
+	height:50px;
+	background-color:red;
+}
+#wrapper{
+	width:900px;
+	height:500px;
+	margin:auto;
+}
+#LeftMenu{
+	background-color:green;
+	width:200px;
+	height:500px;
+	float:left;
+}
+
+#ConTent{
+	background-color:black;
+	width:500px;
+	height:500px;
+	float:left;
+}
+#Right{
+	background-color:green;
+	width:200px;
+	height:500px;
+	float:left;
+}
+#Footer{
+	background-color: yellow;
+	width: 900;
+	height: 50;
+	margin:auto;
+}
