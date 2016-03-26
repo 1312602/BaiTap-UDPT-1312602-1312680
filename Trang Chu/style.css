@@ -1,39 +1,58 @@
+
+body{
+	width:1000px;
+	margin: auto;
+}
 #Top{
 	
-	width: 900px;
-	margin:auto;
-	height: 100px;	
+	height: 130px;	
 	background-image: url("banner.png");
 }
 #Menu{
-	width:900px;
-	margin:auto;
 	height:50px;
-	background-color:black;
-	margin-top:10px;
-	margin-bottom: 10px;
+	background-color:black;	
 	text-align: center;
 	line-height:50px;
 	font-size:20;
+	margin: 10px 0px 10px 0px;
 }
 #Menu ul {
 	list-style-type: none;
 	padding : 0px;
 }
-#Menu ul li {
+#Menu >ul>li {
 	width:160px;
 	float : left;
 	border-left:1px solid #ffffff;
-		
+	position: relative;	
 }
 #Menu ul li a {
 	text-decoration: none;
 	color: white;
 }
+#Menu ul li a:hover{
+	color :green;
+}
+#Menu li:hover #SubMenuTop{
+	display:block;
+}
+#SubMenuTop{
+	width:300px;
+	margin-left : 50px;
+	display: none;
+	position: absolute; 
+	background: black;
+}
+#SubMenuTop li {
+	width:300px;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+
 #wrapper{
-	width:900px;
-	height:500px;
-	margin:auto;
+	height:900px;
+	
 }
 #LeftMenu{
 	width:200px;
@@ -41,10 +60,10 @@
 	background: black;
 	float:left;
 	text-align:left;
-	padding-top:20px;
 }
 #LeftMenu ul{
 	list-style-type: none;
+	
 	padding: 0px;
 }
 #LeftMenu ul li{
@@ -60,20 +79,16 @@
 }
 
 #ConTent{
-	background-color:yellow;
-	width:500px;
+	background-color:white;
+	width: 795px;
 	height:500px;
 	float:left;
+	margin-left:5px;
 }
-#Right{
-	background-color:green;
-	width:200px;
-	height:500px;
-	float:left;
-}
+
 #Footer{
-	background-color: yellow;
-	width: 900;
+	background-color: black;
 	height: 50;
-	margin:auto;
+	margin: 10px 0px 0px 0px;
+
 }
