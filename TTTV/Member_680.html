@@ -4,8 +4,10 @@
 	<title>Thông tin thành viên</title>
 	<style type="text/css" media ="all">
 	a:link{text-decoration: none}
-	a:hover{text-decoration: none;
-		color: #FFD700;}
+	*{
+  		margin: 0;
+   		padding:0;
+   	}
 
 	#id1{
 		font-size:40;
@@ -15,15 +17,46 @@
 		margin: auto;
 		color: #EEEE00;}
 
-	#id2{text-align: Center;
-		font-size: 25;
-		background-color: #000000;
-		border:2px solid Blue;
-		width:399px;
+	#id2{
+		text-align: center;
+		list-style-type: none;
+		background: #006400;
+	}
+
+	#id2 ul li {
+		color:#104E8B;
+		display: inline-table;
+		width: 240px;
 		height: 40px;
-		margin: auto;
-		float: left;}
-		
+		line-height: 40px;
+		font-size: 20px;
+		position: relative;
+	}
+
+	#id2 ul li a {
+		color:#F1F1F1;
+		text-decoration: none;
+		display: block;
+	}
+
+	#id2 ul li a:hover
+	{
+		background: #F1F1F1;
+		color: #104E8B;
+	}
+
+	#id2 ul li > .id2a
+	{
+		display: none;
+	}
+
+	#id2 ul li:hover .id2a
+	{
+		display: block;
+		position: absolute;
+		background: #006400;
+	}
+
 	#id3{width: 1210px;
 		margin: auto;}
 
@@ -41,7 +74,7 @@
 	.Footer
 	{	text-align: right;
 		font-size:20px;
-		color: 	#FF9800;
+		color: 	#FF6103;
 		margin: auto;
 		float:right;
 	}
@@ -65,16 +98,27 @@
 	}
 
 		</style>	
+
 </head>
 <body background="a.jpg">
 <div id="id3">
 <div id = "id1">
 <h1>Spider Man Group</h1>
 <h2>Môn Ứng dụng phân tán</h2></div>
-<div id = "id2"> HOME </div>
-<div id = "id2"> <a href ="Member_680.html"> 1312680 </a> </div>
-<div id = "id2"> <a href ="Member_602.html"> 1312602 </a> </div>
-<br/></br> <marquee><strong><i> Welcome to group Spider Man </i></strong></marquee></br>
+<marquee><strong><i> Welcome to group Spider Man </i></strong></marquee></br>
+<div id = "id2"> 
+<ul>
+	<li><a href="#">Home</a></li>
+	<li>
+		<a href="Member_602.html">Thông tin thành viên</a>
+		<ul class ="id2a">
+			<li><a href ="Member_602.html"> 1312602</a></li>
+			<li><a href ="Member_680.html"> 1312680</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Liên hệ</a></li>
+</ul>
+</div><br/>
 <div class = "HoTen"><b> 1312680 - Nguyễn Minh Tú </b></div>
 <img src = "Nguyễn Minh Tú.jpg" border = "2" width="240" height="400"align="left">
 <br/></br>
