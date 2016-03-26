@@ -10,11 +10,12 @@ body{
 }
 #Menu{
 	height:50px;
-	background-color:black;	
+	background: url("menu.png");	
 	text-align: center;
 	line-height:50px;
 	font-size:20;
-	margin: 10px 0px 10px 0px;
+	margin: 10px 0px 0px 0px;
+	
 }
 #Menu ul {
 	list-style-type: none;
@@ -41,7 +42,7 @@ body{
 	margin-left : 50px;
 	display: none;
 	position: absolute; 
-	background: black;
+	background: url("menu.png");
 }
 #SubMenuTop li {
 	width:300px;
@@ -55,29 +56,45 @@ body{
 	
 }
 #LeftMenu{
-	width:200px;
-	height: 500;
-	background: black;
+	width:200px;	
 	float:left;
 	text-align:left;
+	font-size: 20;
 }
 #LeftMenu ul{
 	list-style-type: none;
-	
 	padding: 0px;
+	/*margin-top:20px;*/
 }
-#LeftMenu ul li{
+#LeftMenu >ul >li{
 	width: auto;
+	background: url("menu.png");
 	height: 50px;
 	line-height:50px;
 	border-bottom: 1px solid #ffffff;
 	padding: 0 1em;
+	position: relative;
 }
 #LeftMenu ul li a{
 	text-decoration: none;
 	color: white;
 }
-
+#LeftMenu li:hover #SubMenuLeft{
+	display: block;
+}
+#SubMenuLeft{
+	width:300px;
+	left:200px;
+	top: 0px;
+	display: none;
+	position: absolute; 
+	background: url("menu.png");	
+	border-left:1px solid #dddddd;
+}
+#SubMenuLeft li{
+	border-bottom:1px solid #ffffff;
+	padding-left:20px;
+}
 #ConTent{
 	background-color:white;
 	width: 795px;
@@ -87,8 +104,11 @@ body{
 }
 
 #Footer{
-	background-color: black;
-	height: 50;
+	background:url("menu.png");
+	height: 50px;
+	color:white;
+	text-align: center;
+	line-height:50px: 
 	margin: 10px 0px 0px 0px;
 
 }
