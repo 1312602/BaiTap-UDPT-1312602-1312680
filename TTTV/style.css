@@ -1,0 +1,170 @@
+body{
+	width:1000px;
+	margin: auto;
+}
+#Top{
+	
+	height: 130px;	
+	background-image: url("banner.png");
+}
+#Menu{
+	height:50px;
+	background: url("menu.png");	
+	text-align: center;
+	line-height:50px;
+	font-size:20;
+	margin: 10px 0px 0px 0px;
+	
+}
+#Menu ul {
+	list-style-type: none;
+	padding : 0px;
+}
+#Menu >ul>li {
+	width:160px;
+	float : left;
+	border-left:1px solid #ffffff;
+	position: relative;	
+}
+#Menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+#Menu ul li a:hover{
+	color :green;
+}
+#Menu ul li:hover #SubMenuTop{
+	display:block;
+}
+#Menu ul li > #SubMenuTop{
+	display: none;
+	position: absolute; 
+	background: url("menu.png");
+}
+#SubMenuTop li {
+	width:300px;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+
+#wrapper{
+	height:100%;
+
+	
+}
+#LeftMenu{
+	width:200px;	
+	float:left;
+	text-align:left;
+	font-size: 20;
+}
+#LeftMenu ul{
+	list-style-type: none;
+	padding: 0px;
+	/*margin-top:20px;*/
+}
+#LeftMenu >ul >li{
+	width: auto;
+	background: url("menu.png");
+	height: 50px;
+	line-height:50px;
+	border-bottom: 1px solid #ffffff;
+	padding: 0 1em;
+	position: relative;
+}
+#LeftMenu ul li a{
+	text-decoration: none;
+	color: white;
+}
+#LeftMenu li:hover #SubMenuLeft{
+	display: block;
+}
+#SubMenuLeft{
+	width:300px;
+	left:200px;
+	top: 0px;
+	display: none;
+	position: absolute; 
+	background: url("menu.png");	
+	border-left:1px solid #dddddd;
+}
+#SubMenuLeft li{
+	border-bottom:1px solid #ffffff;
+	padding-left:20px;
+}
+#ConTent{
+	background-color:white;
+	width: 795px;
+	height:500px;
+	float:left;
+	margin-left:5px;
+}
+
+#Footer{
+	background:url("menu.png");
+	height: 30px;
+	color:white;
+	text-align: center;
+	line-height:50px: 
+	margin: 10px 0px 0px 0px;
+}
+.icon {
+	width:24px;
+	height:24px;
+}
+#Search{
+	float: right;
+	padding: 7px 20px 0px 10px;
+	margin-right: 0px;
+}
+#Search_Text{
+	width:200px;
+	padding-left:20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 30px;
+    color: white;
+    background: white;
+    float: left;
+    box-sizing: border-box;
+}
+#Search_Button {
+    border: 0 none;
+    background: black url("search.png") center no-repeat;
+    width: 60px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+}
+
+#Thongtin
+	{
+		color: #FFFF00;
+		font-size: 18pt;
+		margin: auto;
+		float:left;
+		padding-top: 10px;
+	}
+
+#Thongtin ul li {
+	padding-left: 20px;
+}
+
+.Hoten {
+	text-align: center;
+	color: 	#FF3030;
+	margin: auto;
+	font-size: 25;
+	padding-top: 20px;
+}
+
+#wrapper1{
+	height:100%;
+	padding-left: 80px;
+	
+}
+
