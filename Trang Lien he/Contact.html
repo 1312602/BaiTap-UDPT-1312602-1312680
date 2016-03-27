@@ -4,10 +4,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
-<body background="a.jpg">
+<body>
 	<div id = "Top">
 	</div>
-	<marquee><i><strong> Welcome to group Spider Man </strong></i></marquee>
 	<div id = "Menu">
 		<ul>
 			<li><img class ="icon" src = "home.png"/> <a href ="#">Trang chủ</a> </li>
@@ -30,21 +29,21 @@
 
 	<div id = "wrapper1">
 			<h3><strong><i>Liên hệ</i></strong></h3>
-			<form name ="frmLienHe" method = "POST">
-				<div id = "SizeFont"><li>Họ tên: <input type="text" name="txtHoTen"  size="30" maxlength="50" tabindex="1" placeholder ="Nhập họ tên.."></input></li></div>
+			<form name ="frmLienHe" method = "GET">
+				<div id = "SizeFont"><li>Họ tên:</br> <input type="text" name="txtHoTen" id="SizeForm"  maxlength="50" tabindex="1" placeholder ="Nhập họ tên.."></input></li></div>
 
-			<form name ="frmEmail" method = "POST">
+			<form name ="frmEmail" method = "GET">
 				&#160;	&#160;	&#160;	&#160; 
-				<div id = "SizeFont"><li>Email: <input type="text" name="txtEmail" size="24" maxlength="50" tabindex="2" placeholder ="Nhập Email..."></input></li></div>
+				<div id = "SizeFont"><li>Email:</br> <input type="text" name="txtEmail" id = "SizeForm"  maxlength="50" tabindex="2" placeholder ="Nhập Email..."></input></li></div>
 			</form>
 
-			<form name ="frmSoDienThoai" method = "POST">
-				<div id = "SizeFont"><li>Số điện thoại: <input type="text" name="txtSDT"  size="23" maxlength="50" tabindex="3" placeholder ="Nhập SĐT..."></input></li>
+			<form name ="frmSoDienThoai" method = "GET">
+				<div id = "SizeFont"><li>Số điện thoại:</br><input type="text" name="txtSDT" id = "SizeForm" maxlength="50" tabindex="3" placeholder ="Nhập SĐT..."></input></li>
 				</div>
 
 				&#160;	&#160;	&#160;	&#160; 
-				<div id = "SizeFont"> <li>Quận Thành phố:
-				<select name = "TinhThanh">
+				<div id = "SizeFont"> <li>Quận Thành phố:</br>
+				<select name = "TinhThanh" id = "SizeForm">
 					<optgroup label="TPHCM">
 						<option value="Q1"> Quận 1 - TPHCM</option>
 						<option value="Q5"> Quận 5 - TPHCM</option>
@@ -67,9 +66,10 @@
 			<div id = "SizeFont"><li>Nội dung:</li>
 				<textarea cols="50" rows="6" name ="ND0" tabindex="4" wrap="off">
 				</textarea></div>
-				</br></br>
-				&#160;	&#160;	
-				<input type="submit" name = "btnSM" value = "Submit" ></input>
+				</br></br>	
+
+				&#160;	&#160;	&#160;	&#160; &#160;	&#160;	&#160;	&#160; &#160;	&#160;	&#160;	&#160; &#160;	&#160;	&#160;
+				<input type="submit" name = "btnSM" id = "Submit" value=" "></input>
 		</div>		
 
 	<div id = "footer">

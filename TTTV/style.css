@@ -146,7 +146,7 @@ body{
 
 #Thongtin
 	{
-		color: #00EE00;
+		color: #00008B;
 		font-size: 18pt;
 		margin: auto;
 		float:left;
@@ -157,9 +157,9 @@ body{
 	padding-left: 20px;
 }
 
-.Hoten {
+#Hoten {
 	text-align: center;
-	color: #FFD700;
+	color: 	#CD0000;
 	margin: auto;
 	font-size: 25;
 	padding-top: 20px;
@@ -168,20 +168,34 @@ body{
 #wrapper1{
 	height:100%;
 	padding-left: 80px;
-	
+	padding-top: 20px;
 }
 
 #SizeFont
 {
 	font-size: 20px;
 	display: inline-table;
-	padding-left: 20px;
-	color: #00EE76
+	padding-left: 120px;
+	color: #00008B;
+}
+
+#SizeForm
+{
+	font-size: 15px;
+	width: 250px;
+	height: 30px;
+}
+
+#Submit
+{
+	width: 68px;
+	height: 30px;
+	background: url("Submit.gif") center no-repeat;
 }
 
 h3 {
 	text-align: center;
-	color: #0000CD;
+	color: #00008B;
 	font-size: 40px;
 }
 
