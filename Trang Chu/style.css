@@ -4,7 +4,6 @@ body{
 	margin: auto;
 }
 #Top{
-	
 	height: 130px;	
 	background-image: url("banner.png");
 }
@@ -52,11 +51,12 @@ body{
 
 
 #wrapper{
-	height:1000px;
-	
+	height: auto;
+	width: 1000px;
 }
 #LeftMenu{
-	width:200px;	
+	width:200px;
+	height: auto;	
 	float:left;
 	text-align:left;
 	font-size: 20;
@@ -98,19 +98,19 @@ body{
 #ConTent{
 	background-color:white;
 	width: 795px;
-	height:500px;
+	height: 1000px;
 	float:left;
 	margin-left:5px;
 }
 
 #Footer{
-	background:url("menu.png");
-	height: 50px;
-	top:auto;
+	clear: both;
+	height: 40px;
 	color:white;
 	text-align: center;
-	line-height:50px: 
-	margin: 10px 0px 0px 0px;
+	line-height:40px;
+	background: url("menu.png");
+	bottom: 0px;
 }
 .icon {
 	width:24px;
@@ -128,7 +128,7 @@ body{
     font-family: Montserrat, sans-serif;
     border: 0 none;
     height: 30px;
-    color: white;
+    color: black;
     background: white;
     float: left;
     box-sizing: border-box;
@@ -142,4 +142,34 @@ body{
     text-align: center;
     height: 30px;
     cursor: pointer;
+}
+#ThanhVien{
+	width:395px;
+	height: 100px;
+	display: inline-block;
+	position: relative;
+	float: left;
+	color: black;
+	
+}
+#ThanhVien >img {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+#ThanhVien ul{
+	width: 250px;
+	height: 100px;
+	float:left;
+	margin:5px auto;
+	padding-right: -10px;
+}
+#ThanhVien ul li {
+	padding-left: 0px;
+	list-style-type: none;
+	
+}
+#ThanhVien ul li a {
+	text-decoration: none;
+	margin-right:-10px;
 }
