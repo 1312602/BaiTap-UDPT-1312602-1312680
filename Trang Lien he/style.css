@@ -146,7 +146,7 @@ body{
 
 #Thongtin
 	{
-		color: #00EE00;
+		color: #FFFF00;
 		font-size: 18pt;
 		margin: auto;
 		float:left;
@@ -159,7 +159,7 @@ body{
 
 .Hoten {
 	text-align: center;
-	color: #FFD700;
+	color: 	#FF3030;
 	margin: auto;
 	font-size: 25;
 	padding-top: 20px;
@@ -168,7 +168,7 @@ body{
 #wrapper1{
 	height:100%;
 	padding-left: 80px;
-	
+	padding-top: 20px;
 }
 
 #SizeFont
@@ -176,12 +176,12 @@ body{
 	font-size: 20px;
 	display: inline-table;
 	padding-left: 20px;
-	color: #00EE76
+	color: #00EE76;
 }
 
 h3 {
 	text-align: center;
-	color: #0000CD;
+	color: #FFD700;
 	font-size: 40px;
 }
 

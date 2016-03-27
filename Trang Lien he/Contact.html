@@ -1,0 +1,81 @@
+<html>
+<head>
+	<title>Spiderman</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body background="a.jpg">
+	<div id = "Top">
+	</div>
+	<marquee><i><strong> Welcome to group Spider Man </strong></i></marquee>
+	<div id = "Menu">
+		<ul>
+			<li><img class ="icon" src = "home.png"/> <a href ="#">Trang chủ</a> </li>
+			<li><img class ="icon" src = "member.png"/> <a href ="#">Thành viên</a> 
+				<ul id = "SubMenuTop">
+					<li><a href ="#">Trần Quang Tín-1312602</a></li>
+					<li><a href ="#">Nguyễn Minh Tú-1312680</a></li>
+				</ul>
+			</li>
+			<li><img class ="icon" src = "book.png"/> <a href ="#">Bài đăng</a></li>
+			<li><img class ="icon" src = "contact.png"/> <a href ="#">Liên hệ</a></li>
+		</ul>
+		<li id ="Search" style="list-style-type: none">
+		<form action="" method=get" ">
+            <input type="text" name="search_text" id="Search_Text" placeholder="Search" />
+            <input type="button" name="search_button" id="Search_Button"></a>
+        </form>
+        </li>
+	</div>
+
+	<div id = "wrapper1">
+			<h3><strong><i>Liên hệ</i></strong></h3>
+			<form name ="frmLienHe" method = "POST">
+				<div id = "SizeFont"><li>Họ tên: <input type="text" name="txtHoTen"  size="30" maxlength="50" tabindex="1" placeholder ="Nhập họ tên.."></input></li></div>
+
+			<form name ="frmEmail" method = "POST">
+				&#160;	&#160;	&#160;	&#160; 
+				<div id = "SizeFont"><li>Email: <input type="text" name="txtEmail" size="24" maxlength="50" tabindex="2" placeholder ="Nhập Email..."></input></li></div>
+			</form>
+
+			<form name ="frmSoDienThoai" method = "POST">
+				<div id = "SizeFont"><li>Số điện thoại: <input type="text" name="txtSDT"  size="23" maxlength="50" tabindex="3" placeholder ="Nhập SĐT..."></input></li>
+				</div>
+
+				&#160;	&#160;	&#160;	&#160; 
+				<div id = "SizeFont"> <li>Quận Thành phố:
+				<select name = "TinhThanh">
+					<optgroup label="TPHCM">
+						<option value="Q1"> Quận 1 - TPHCM</option>
+						<option value="Q5"> Quận 5 - TPHCM</option>
+					</optgroup>
+
+					<optgroup label="Hà Nội">
+						<option value="QBD"> Quận Ba Đình - Hà Nội</option>
+						<option value="QHK"> Quận Hoàn Kiếm - Hà Nội</option>
+					</optgroup>
+
+					<optgroup label="Đà Nẵng">
+						<option value="QST"> Quận Sơn Trà - Đà Nẵng</option>
+						<option value="QTK"> Quận Thanh Khuê - Đà Nẵng</option>
+					</optgroup>
+				</select>
+				</li>
+				</div>
+				</form>
+
+			<div id = "SizeFont"><li>Nội dung:</li>
+				<textarea cols="50" rows="6" name ="ND0" tabindex="4" wrap="off">
+				</textarea></div>
+				</br></br>
+				&#160;	&#160;	
+				<input type="submit" name = "btnSM" value = "Submit" ></input>
+
+		</div>		
+
+	<div id = "footer">
+		<p>Spider-Man group @ Copyright by Tran Quang Tin and Nguyen Minh Tu </p>
+	</div>
+
+</body>
+</html>
