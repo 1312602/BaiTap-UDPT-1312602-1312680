@@ -223,13 +223,53 @@ body{
 	background: url("../Hinh Anh/Submit.gif") center no-repeat;
 }
 
-h3 {
-	text-align: center;
-	color: #00008B;
-	font-size: 40px;
-}
-
 marquee{
 		color: #FF4500;
 		font-size: 18pt;
 	}
+
+
+.detailBlog{
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	width: 100%;
+	float: left;
+}
+.Avarta {
+	border:1px solid #000000;
+	padding: 2px;
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
+.detailPoster{
+	float left;
+}
+.headerBlog{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 10px;
+	color: #CD0000;
+}
+
+#Blog
+{
+	font-size: 16px;
+	font-family: TimeNewRomance;
+	color: #00008B;
+}
+
+#ListBlog
+{
+	display: inline-block;
+	width: 400px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #73AD21;
+    text-decoration: none;  
+}
+
+#ListBlog a{
+	text-decoration: none;
+	font-size: 23px;
+	padding-left: 10px;
+}
