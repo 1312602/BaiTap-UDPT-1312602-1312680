@@ -64,7 +64,7 @@ body{
 #LeftMenu ul{
 	list-style-type: none;
 	padding: 0px;
-	/*margin-top:20px;*/
+	
 }
 #LeftMenu >ul >li{
 	width: auto;
@@ -79,8 +79,12 @@ body{
 	text-decoration: none;
 	color: white;
 }
+#LeftMenu ul li a:hover{
+	color : green;
+}
 #LeftMenu li:hover #SubMenuLeft{
 	display: block;
+	color: green;
 }
 #SubMenuLeft{
 	width:300px;
@@ -152,7 +156,7 @@ body{
 	color: black;
 	
 }
-#ThanhVien >img {
+#ThanhVien >a >img {
 	height: 100px;
 	width: 100px;
 	float: left;
@@ -173,6 +177,7 @@ body{
 	text-decoration: none;
 	margin-right:-10px;
 }
+
 
 #Thongtin
 	{
@@ -244,12 +249,13 @@ marquee{
 .detailPoster{
 	float left;
 }
-.headerBlog{
+.header{
 	text-align: center;
 	font-size: 50px;
 	margin-bottom: 10px;
 	color: #CD0000;
 }
+
 
 #Blog
 {
@@ -272,4 +278,31 @@ marquee{
 	text-decoration: none;
 	font-size: 23px;
 	padding-left: 10px;
+}
+#ListBlog a:hover{
+	color : #00CCFF;
+}
+#ListBlog a:visited{
+	color : #FF6633;
+}
+.TieuDe {
+	background-color: black;
+	color:white;
+	font-size: 30px;
+	width: auto;
+	margin: 20px 0px 10px 0px;
+}
+.comment{
+	width:100%;
+	float: left;
+	margin: 10px 0px 10px 0px; 
+}
+.comment img {
+	height:50px;
+	float: left;
+	margin-right: 10px;
+}
+.comment textarea{
+	float: left;
+	width: 860px;
 }
