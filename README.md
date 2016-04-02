@@ -1,6 +1,6 @@
-# BT-UDPT-1 - *Name of your app*
+﻿# BT-UDPT-1 - *Spider-Man*
 
-**Name of your app** là một bài tập 1 tại môn UDPT.
+**Spider-Man** là một bài tập 1 tại môn UDPT.
 
 Thành viên: **Trần Quang Tín - 1312602**
 			**Nguyễn Minh Tú - 1312680**
@@ -45,7 +45,7 @@ Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Trần Quang Tín - Nguyễn Minh Tú]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
