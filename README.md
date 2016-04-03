@@ -5,7 +5,7 @@
 Thành viên: **Trần Quang Tín - 1312602**
 			**Nguyễn Minh Tú - 1312680**
 
-URL: **URL hosting của bài tập**
+URL: **http://spiderman.net16.net**
 
 ## Yêu cầu
 
